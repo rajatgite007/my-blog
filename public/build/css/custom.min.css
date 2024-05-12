@@ -1,0 +1,48 @@
+/** Image input **/
+.image-upload {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-upload img {
+    width: 100%;
+    height: auto;
+}
+.image-upload input {
+    display: none;
+}
+.image-upload .action-icon {
+    position: absolute;
+    right: -11px;
+    bottom: 6px;
+    margin: 0;
+    background: #405189;
+    color: #fff;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image-upload a.action-icon {
+    background: #d65408;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__choice {
+    background-color: #405189 !important;
+    border: none !important;
+    color: #fff;
+    border-radius: 3px !important;
+    padding: 3px 7px 3px 3px !important;
+    margin-top: 6px !important;
+}
+.auth-logo img {
+    height: 50px;
+}
